@@ -4,7 +4,7 @@ export default function Navbar(){
         <a className={"site-title"} href={"/"}>Money Moves</a>
         <ul>
             <li>
-                <a href={"/login"}>Login</a>
+                <a href={"/login"}>{auth ? "Logout" : "Login"}</a>
             </li>
             <li>
                 <a href={"/portfolio"}>Portfolio</a>

@@ -17,9 +17,13 @@ export default function SignUp(){
         event.preventDefault()
         axios.post('http://localhost:8081/signup', values)
             .then(res => {
-                navigate('/')
+                if(res.data.Status === "Success") {
+                    navigate('/login')
+                }else{
+                    alert(res.data.Error)
+                }
             })
-            .catch(err => console.log(err));
+            .then(err => console.log(err));
     }
 
     return <signup className={"login"}>
