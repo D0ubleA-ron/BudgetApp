@@ -1,0 +1,49 @@
+
+body {
+  background-color: #313131; /* Set the background color of the entire site */
+}
+
+.navbar {
+  background-color: #FE5F55;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Roboto Mono', monospace; /* Apply Roboto Mono font to the navbar */
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-list li {
+  margin-right: 30px;
+}
+
+.nav-list li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Roboto Mono', monospace; /* Apply Roboto Mono font to the navigation links */
+}
+
+.nav-list li a:hover {
+  color: lightgray;
+}
+
+.navbar-brand {
+  display: flex; /* Enable flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin-left: 15px;
+}
+
+.navbar-brand a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: 'Roboto Mono', monospace; /* Apply Roboto Mono font to the logo */
+}
+

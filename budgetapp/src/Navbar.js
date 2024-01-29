@@ -1,14 +1,12 @@
 export default function Navbar(){
-    return <nav className={"nav"}>
-
-        <a className={"site-title"} href={"/"}>Money Moves</a>
-        <ul>
-            <li>
-                <a href={"/login"}>{auth ? "Logout" : "Login"}</a>
-            </li>
-            <li>
-                <a href={"/portfolio"}>Portfolio</a>
-            </li>
+    return(
+    <nav className="navbar">
+        <div className="navbar-brand">
+            <a href="#">Money Moves</a>
+        </div>
+        <ul className="nav-list">
+            <li><a href="#">Login</a></li>
         </ul>
     </nav>
+    );
 }
