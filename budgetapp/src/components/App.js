@@ -1,4 +1,4 @@
-import './App.css';
+import '../App.css';
 import Signup from "./Signup";
 import {Container} from "react-bootstrap";
 import Navbar from "./navbar";
