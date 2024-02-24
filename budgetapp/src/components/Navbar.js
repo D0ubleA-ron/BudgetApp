@@ -15,7 +15,7 @@ export default function Navbar() {
     }
 
     return (
-        <Router> {/* Wrap the Navbar component in a Router */}
+        <Router>
             <nav className="navbar">
                 <div className="navbar-brand">
                     <Link to="/">Money Moves</Link>
